@@ -176,5 +176,18 @@ div.dataTables_length label{
 }
 /*商品品类信息*/
 .product-category{
+	overflow: hidden;
+	position: relative;
+	width:100%;
+	/*padding:0px 10px;*/
+}
+.category{
+	border-top:1px solid #E7EAEC;
+}
+.category .category_label{
+	float: left;
 
+}
+.category ul li{
+	float: left;
 }
